@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bhaumik Khandelwal | Cyber Security Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background:#0f172a;
+color:#e2e8f0;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#020617;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:40px;
+border-bottom:1px solid #1e293b;
+}
+
+nav a{
+color:#e2e8f0;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.highlight{
+color:#38bdf8;
+}
+
+.typing{
+font-size:24px;
+margin:10px;
+color:#38bdf8;
+}
+
+.hero p{
+max-width:600px;
+color:#94a3b8;
+}
+
+.btn{
+border:1px solid #38bdf8;
+padding:12px 25px;
+margin:10px;
+text-decoration:none;
+color:#38bdf8;
+display:inline-block;
+border-radius:6px;
+}
+
+.btn:hover{
+background:#38bdf8;
+color:#020617;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+h2{
+color:#38bdf8;
+margin-bottom:30px;
+}
+
+/* ABOUT */
+
+.about{
+max-width:800px;
+line-height:1.7;
+color:#cbd5f5;
+}
+
+/* SKILLS */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#020617;
+border:1px solid #1e293b;
+padding:25px;
+border-radius:8px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:#38bdf8;
+}
+
+/* TOOLS */
+
+.tools{
+display:flex;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.tool{
+text-align:center;
+font-size:40px;
+color:#38bdf8;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.project{
+background:#020617;
+border:1px solid #1e293b;
+padding:25px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.project:hover{
+border-color:#38bdf8;
+transform:translateY(-5px);
+}
+
+/* EDUCATION */
+
+.edu{
+border-left:3px solid #38bdf8;
+padding-left:20px;
+}
+
+/* CONTACT */
+
+.contact{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.contact a{
+text-decoration:none;
+border:1px solid #1e293b;
+padding:12px 20px;
+border-radius:6px;
+color:#e2e8f0;
+}
+
+.contact a:hover{
+border-color:#38bdf8;
+color:#38bdf8;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:25px;
+border-top:1px solid #1e293b;
+margin-top:40px;
+color:#94a3b8;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Bhaumik <span class="highlight">Khandelwal</span></h1>
+
+<div class="typing" id="typing"></div>
+
+<p>
+BCA Cyber Security graduate from JECRC University Jaipur with strong interest
+in Cyber Security, Web Security and Ethical Hacking.
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about">
+Bhaumik Khandelwal is a passionate Cyber Security enthusiast and Penetration Tester
+from Jaipur, Rajasthan. He graduated in BCA Cyber Security from JECRC University
+and focuses on identifying vulnerabilities in web applications and networks.
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="card">Web Security</div>
+<div class="card">Penetration Testing</div>
+<div class="card">Network Security</div>
+<div class="card">Linux</div>
+<div class="card">Python</div>
+<div class="card">Burp Suite</div>
+<div class="card">OWASP Top 10</div>
+
+</div>
+
+</section>
+
+<!-- TOOLS -->
+
+<section>
+
+<h2>Tools</h2>
+
+<div class="tools">
+
+<div class="tool"><i class="fas fa-bug"></i><br>Burp Suite</div>
+<div class="tool"><i class="fas fa-network-wired"></i><br>Nmap</div>
+<div class="tool"><i class="fas fa-terminal"></i><br>Metasploit</div>
+<div class="tool"><i class="fas fa-shield-alt"></i><br>Wireshark</div>
+<div class="tool"><i class="fab fa-linux"></i><br>Kali Linux</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Clickjacking Vulnerability Demo</h3>
+<p>Demonstrates how attackers exploit clickjacking vulnerabilities using iframes.</p>
+</div>
+
+<div class="project">
+<h3>SQL Injection Lab</h3>
+<p>A testing environment built to understand SQL Injection attacks.</p>
+</div>
+
+<div class="project">
+<h3>XSS Testing Project</h3>
+<p>Demonstrates cross-site scripting vulnerabilities and mitigation techniques.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section>
+
+<h2>Education</h2>
+
+<div class="edu">
+<h3>JECRC University</h3>
+<p>BCA Cyber Security</p>
+<p>Status: Passed Out</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<a href="mailto:bhoumikkhandelwal229@gmail.com">
+<i class="fas fa-envelope"></i> Email
+</a>
+
+<a href="https://www.linkedin.com/in/bhaumik-khandelwal-22050b371">
+<i class="fab fa-linkedin"></i> LinkedIn
+</a>
+
+<a href="https://github.com/bhaumikkhandelwal229-oss">
+<i class="fab fa-github"></i> GitHub
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Bhaumik Khandelwal | Cyber Security Portfolio
+</footer>
+
+<script>
+
+/* Typing Animation */
+
+const text="Penetration Tester";
+let i=0;
+
+function type(){
+
+if(i<text.length){
+document.getElementById("typing").innerHTML+=text.charAt(i);
+i++;
+setTimeout(type,100);
+}
+
+}
+
+type();
+
+</script>
+
+</body>
+</html>
